@@ -62,11 +62,3 @@ public extension Array where Element: Equatable {
     }
     
 }
-
-public extension Array where Element: Hashable {
-    
-    public mutating func unify() {
-        self = removedDuplicates()
-    }
-    
-}

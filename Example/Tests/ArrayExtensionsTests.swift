@@ -59,9 +59,6 @@ class ArrayExtensionsTests: XCTestCase {
         XCTAssertEqual(arrayWithValues, [1,2,6,5,5,4,4,8,9])
     }
     
-    func test_unify_array(){
-        arrayWithValues.unify()
-        XCTAssertEqual(arrayWithValues, [1,2,6,5,4,8,9])
-    }
+    
 
 }

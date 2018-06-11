@@ -23,5 +23,10 @@ class CollectionExtensionsTests: XCTestCase {
         XCTAssertEqual(element, nil)
     }
     
+    func test_unify_array(){
+        let unifiedArray = arrayWithValues.removedDuplicates()
+        XCTAssertEqual(unifiedArray, [1,2,6,5,4,8,9])
+    }
+    
 }
 
