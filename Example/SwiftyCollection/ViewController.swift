@@ -13,10 +13,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var test: Array = [1,2,2,2,3,4,4,9]
-        test.unify()
-        print(test)
-        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
