@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyCollection (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyCollection (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyCollection:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyCollection: bb1beac263cc41fe29ee6688f7e209092680e0fa
+
+PODFILE CHECKSUM: 1eb0082aaeeaa2a924a7c060fdf95b40a1c67eaa
+
+COCOAPODS: 1.5.2
