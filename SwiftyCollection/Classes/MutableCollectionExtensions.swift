@@ -36,7 +36,6 @@ extension MutableCollection where Self: RangeReplaceableCollection {
             return remove(at: index)
         }
         return nil
-        
     }
 }
 

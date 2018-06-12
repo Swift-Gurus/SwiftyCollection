@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  This library provides functions that give a safe operations to collections and avoid crashes
+  This library provides functions that give safe operations to collections and avoid crashes
                        DESC
 
   s.homepage         = 'https://github.com/aldo-dev/SwiftyCollection.git'

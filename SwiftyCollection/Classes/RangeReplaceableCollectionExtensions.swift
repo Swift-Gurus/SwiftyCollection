@@ -36,9 +36,8 @@ public extension RangeReplaceableCollection {
         return mutated
     }
     
-    
     public func removing(at index: Self.Index) -> Self {
-        guard  indexInBounds(index) else { return self }
+        guard indexInBounds(index) else { return self }
         let range = Range<Self.Index>(uncheckedBounds: (lower: index, upper: self.index(after: index)))
         var mutated = self
         mutated.replaceSubrange(range, with: Self([]))
