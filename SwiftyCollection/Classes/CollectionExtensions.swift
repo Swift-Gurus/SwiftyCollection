@@ -7,17 +7,17 @@
 
 import Foundation
 
+
 public extension Collection {
-    func element(at index: Index) -> Element? {
-        return indices.contains(index) ? self[index] : nil
+    public func element(at index: Index) -> Element? {
+        if indexInBounds(index) {
+            return self[index]
+        }
+        
+        return nil
+    }
+    
+    public func indexInBounds(_ index: Index) -> Bool {
+        return index < endIndex && index >= startIndex
     }
 }
-
-public extension Collection where Element: Equatable {
-    public func removedDuplicates() -> [Element]  {
-        return reduce([], { (partial, element) -> [Element] in
-            return !partial.contains(element) ? partial + [element] : partial
-        })
-    }
-}
-
