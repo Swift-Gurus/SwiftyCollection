@@ -56,7 +56,7 @@ public extension RangeReplaceableCollection where Element: Equatable {
         return self.replacingOccurrences(with: newElement, where: { $0 == element })
     }
     
-    func removingDuplicates() -> Self {
+    public func removingDuplicates() -> Self {
         return  reduce(Self([])) { (partial, element) -> Self in
             !partial.contains(element) ? partial + [element] : partial
         }

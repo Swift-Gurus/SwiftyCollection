@@ -9,12 +9,10 @@ import Foundation
 
 
 public extension Collection {
+    
     public func element(at index: Index) -> Element? {
-        if indexInBounds(index) {
-            return self[index]
-        }
-        
-        return nil
+        guard indexInBounds(index) else { return nil }
+        return self[index]
     }
     
     public func indexInBounds(_ index: Index) -> Bool {

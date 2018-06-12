@@ -11,14 +11,11 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = 'Safe operations on collections'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
-  This library provides functions that give safe operations to collections and avoid crashes
+This library provides an extension to the family of Collection protocols (Collection, MutableCollection, and RangeReplacableCollection) for
+easier and range-safe access to its elements. Most of the added functions return optionals where .none is returned instead of conventional
+error throwing. A summary of the provided functionality is: element(at:), removeLast, removeFirst, replaceOccurrences, removeElement, and
+removeDuplicates (see the README file for detailed, complete description)
                        DESC
 
   s.homepage         = 'https://github.com/aldo-dev/SwiftyCollection.git'
