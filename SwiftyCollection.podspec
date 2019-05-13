@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyCollection'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Safe operations on collections'
 
   s.description      = <<-DESC
@@ -24,7 +24,7 @@ removeDuplicates (see the README file for detailed, complete description)
   s.source           = { :git => 'https://github.com/aldo-dev/SwiftyCollection.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
-  s.swift_version   = '4.0'
+  s.swift_version   = '5.0'
 
   s.source_files = 'SwiftyCollection/Classes/**/*'
 
