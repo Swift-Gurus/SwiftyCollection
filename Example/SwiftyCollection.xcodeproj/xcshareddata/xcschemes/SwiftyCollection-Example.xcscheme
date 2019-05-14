@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -46,7 +46,7 @@
       <CodeCoverageTargets>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1DD781FB1BDFFBE00DF6C6910476727C"
+            BlueprintIdentifier = "2AF1C9CD21586858F88C6C717860451D"
             BuildableName = "SwiftyCollection.framework"
             BlueprintName = "SwiftyCollection"
             ReferencedContainer = "container:Pods/Pods.xcodeproj">

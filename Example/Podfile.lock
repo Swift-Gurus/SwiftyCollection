@@ -1,5 +1,5 @@
 PODS:
-  - SwiftyCollection (1.0.5)
+  - SwiftyCollection (1.0.6)
 
 DEPENDENCIES:
   - SwiftyCollection (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftyCollection: 5f6ca4edbf5beaa3757c2806782c1995a721886f
+  SwiftyCollection: b97f5697570e7b4357db4e7fa2f6712a5a27cdab
 
 PODFILE CHECKSUM: 1eb0082aaeeaa2a924a7c060fdf95b40a1c67eaa
 

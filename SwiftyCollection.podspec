@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyCollection'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'Safe operations on collections'
 
   s.description      = <<-DESC
