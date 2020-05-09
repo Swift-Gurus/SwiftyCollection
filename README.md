@@ -52,7 +52,7 @@ pod 'SwiftyCollection'
 
 ## Author
 
-ALDO Inc., aldodev@aldogroup.com
+Swift-Gurus Inc., alexei.hmelevski@gmail.com
 
 ## License
 
