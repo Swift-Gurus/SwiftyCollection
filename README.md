@@ -1,6 +1,6 @@
 # SwiftyCollection
 
-[![CircleCI](https://circleci.com/gh/aldo-dev/SwiftyCollection.svg?style=svg)](https://circleci.com/gh/aldo-dev/SwiftyCollection)
+[![Build Status](https://app.bitrise.io/app/917e83b35f24a414/status.svg?token=UIPyApuOoiXduFhPMT5xww&branch=master)](https://app.bitrise.io/app/917e83b35f24a414)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyCollection.svg?style=flat)](https://cocoapods.org/pods/SwiftyCollection)
 [![License](https://img.shields.io/cocoapods/l/SwiftyCollection.svg?style=flat)](https://cocoapods.org/pods/SwiftyCollection)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyCollection.svg?style=flat)](https://cocoapods.org/pods/SwiftyCollection)
